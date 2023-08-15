@@ -13,17 +13,20 @@ class Business:
     def __str__(self):
         transaction_string = ""
         total = 0
-        for trans in self.transaction:
-            transaction_string += str(trans.date) + str(trans.amount) + "\n"
+        for trans in sorted(list(self.transaction), key=lambda x: x.date, reverse=True):
+            transaction_string += str(trans.date)[:11] + str(trans.amount) + "₪" + "\n"
             total += trans.amount
 
         string = f"""
 name :{self.name}
-
 transactions:
 {transaction_string}
-
 total: {total}
         """
 
         return string
+
+    @classmethod
+    def print_recap(cls):
+        for elem in cls.business_list.values():
+            print(elem)

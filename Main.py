@@ -1,18 +1,12 @@
-from modules.Utils import from_excel
+from modules.Utils import get_from_folder
 from modules.Business import Business
-from modules.Transaction import Transaction
+from modules.Categories import *
+import os.path
 
-data = from_excel("modules/כרטיסי אשראי_08082023_1034.xlsx")
+# initiate the category manager
+category_manager = CategoryManager(os.getcwd()+"/Data/Categories.txt")
 
-columns = list(data.columns)
-print(columns)
-for i in range(len(data)):
-    name = data[columns[1]][i]
-    date = data[columns[2]][i]
-    amount = data[columns[3]][i]
+#extracting all the data
+get_from_folder(os.getcwd()+"/Data")
 
-    B = Business(name)
-    Business.business_list[name].add_transaction(Transaction(name, date, amount))
-
-for elem in Business.business_list.values():
-    print(elem)
+#trier chaque Business dans une categorie

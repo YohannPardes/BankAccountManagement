@@ -1,0 +1,76 @@
+-Nourriture & Boissons
+    -Alimentation
+    -Restaurant
+    -Fast Food
+    -Cafe, Boisson
+-Achats
+    -Vêtements & chaussures
+    -Bijoux, accessoires
+    -Santé et beauté
+    -Enfants
+    -Maison, jardin
+    -Animaux de compagnie
+    -Électronique, accessoires
+    -Cadeaux, joie
+    -Articles de papeterie, outils
+    -Temps libre
+    -Pharmacie, depanneur
+-Logement
+    -Lover
+    -Prêt hypothécaire
+    -Énergie, services publics
+    -Services
+    -Maintenance, Réparation
+    -Assurance des biens
+-Transports
+    -Transport en commun
+    -Taxi
+    -Longue distance
+    -Voyages d'affaires
+-Véhicules
+    -Carburant
+    -Parking
+    -Entretien du véhicule
+    -Locations
+    -Assurance du véhicule
+    -Crédit-bail
+-Loisirs
+    -Santé, médecin
+    -Bien-être, beauté
+    -Sport, remise en forme
+    -Culture, événements sportifs
+    -Événements de la vie
+    -Lovsirs
+    -Éducation, développement
+    -Livres, audio, abonnements
+-Multimédia, PC
+    -Téléphone, téléphone portable
+    -Internet
+    -Logiciels, applications, jeux
+    -Services postaux
+-Frais financiers
+    -Taxes
+    -Assurances
+    -Prêt, intérêts
+    -Amendes
+    -Avertissement
+    -Charges, honoraires
+    -Allocations familiales
+-Investissements
+    -Bien immobilier
+    -Véhicules, biens personnels
+    -Investissements financiers
+    -Économies
+    -Collections
+-Revenu
+    -Salaires, factures
+    -Intérêts, dividendes
+    -À vendre
+    -Revenu locatif
+    -Droits & subventions
+    -Prêt, location
+    -Chèques, bons de réduction
+    -Loterie, jeux de hasard
+    -Remboursements (taxe, achat)
+    -Allocations familiales
+    -Cadeaux
